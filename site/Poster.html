@@ -1,0 +1,39 @@
+<html>
+  <link rel="stylesheet" type="text/css" href="/assets/app.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/ttf.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <div class="page_wrapper">
+    <div class="page_center">
+      <script src="/assets/app.js"></script>
+      <script src="/assets/runtime.js"></script>
+    </div>
+
+    <!---Place the content of your poster inside this div--->
+    <div class="poster_w content">
+      {% assign row = 1 %}
+      <div class="row">
+        {% for section in collections.sectionRowSorted %}
+          {% if row < section.data.row %}
+          {% assign row = row | plus: 1 %}
+      </div>
+      <div class="row">
+          {% endif %}
+          <div class="section" id="{{ section.fileSlug }}">
+            <div class="title">{{ section.fileSlug }}</div>
+            <div class="info">
+              <div class="title">{{ section.fileSlug }}</div>
+              <div class="text">
+                {{ section.templateContent }}
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      </div>
+    </div>
+    <div class="poster_w display">
+      <h3 id="section_title"></h3>
+	    <p id="section_text"></p>
+    </div>
+  </div>
+</html>

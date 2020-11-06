@@ -1,0 +1,9 @@
+.row {
+    display: flex;
+    div {
+        display: block;
+        flex-basis: 100%;
+        text-align: center;
+        border: red solid 2px;
+    }
+}
