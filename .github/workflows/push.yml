@@ -1,0 +1,54 @@
+name: Poster Build and Deploy
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  main:
+    if: "!contains(github.event.head_commit.message, 'no-ci')"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.3.1
+        with:
+          persist-credentials: false
+          submodules: recursive
+
+      - name: Install npm depedencies
+        run: npm install
+
+      - name: Build
+        run: npm run build
+
+      - name: Build (again fingers crossed this time)
+        run: npm run build
+
+      - name: Set up Python 3.7
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.7
+
+      - name: iGEM WikiSync
+        uses: igembitsgoa/wikisync-action@v1.1-a2
+        with:
+          team: 'UNSW_Australia'
+          source: 'dist'
+          build: 'igem'
+        env:
+          IGEM_USERNAME: ${{ secrets.IGEM_USERNAME }}
+          IGEM_PASSWORD: ${{ secrets.IGEM_PASSWORD }}
+
+      - name: Print Upload Map
+        run: cat upload_map.yml
+
+      - name: Commit Changes
+        run: |
+          git add upload_map.yml
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "[no-ci] Successfully deployed poster to iGEM"
+      - name: Push Changes to Github
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.TOKEN }}
