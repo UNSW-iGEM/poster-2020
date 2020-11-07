@@ -9,6 +9,8 @@ module.exports = function (eleventyConfig) {
       return a.data.row- b.data.row;
     });
   });
+  eleventyConfig.addWatchTarget("./site/scss/");
+  eleventyConfig.setBrowserSyncConfig(require('./bs-config'));
   return {
     dir: {
       input: "site",
