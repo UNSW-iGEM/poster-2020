@@ -2,7 +2,7 @@ import './scss/main.scss';
 import './REPLICATE-IGEM/template-poster.scss';
 $(document).ready(function () {
   //clear default settings
-//   $("#HQ_page").attr("id", "");
+  $("#HQ_page").attr("id", "");
   //setup
   // grab .first_text class and append it
   var d_title = $(".first_text >  .info > .title").html();

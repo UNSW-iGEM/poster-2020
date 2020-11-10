@@ -2,41 +2,52 @@
   <link rel="stylesheet" type="text/css" href="/assets/app.css" />
   <link rel="stylesheet" type="text/css" href="/assets/ttf.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script id="__bs_script__">//<![CDATA[
-    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.26.13'><\/script>".replace("HOST", location.hostname));
-//]]></script>
+  <script id="__bs_script__">
+    //<![CDATA[
+    document.write(
+      "<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.26.13'><\/script>".replace(
+        "HOST",
+        location.hostname
+      )
+    );
+    //]]>
+  </script>
   <div class="page_wrapper">
     <div class="page_center">
       <script src="/assets/app.js"></script>
       <script src="/assets/runtime.js"></script>
-    </div>
-
-    <!---Place the content of your poster inside this div--->
-    <div class="poster_w content">
-      {% assign row = 1 %}
-      <div class="row">
-        {% for section in collections.sectionRowSorted %}
-          {% if row < section.data.row %}
-          {% assign row = row | plus: 1 %}
-      </div>
-      <div class="row">
+      <script src="/assets/js/poster.js"></script>
+      <!---Place the content of your poster inside this div--->
+      <div class="poster_w content">
+        <img id="background" src="/assets/images/background.png" />
+        {% assign row = 1 %}
+        <div class="row">
+          {% for section in collections.sectionRowSorted %} {% if row <
+          section.data.row %} {% assign row = row | plus: 1 %}
+        </div>
+        <div class="row">
           {% endif %}
           <div class="section" id="{{ section.fileSlug }}">
-            <div class="title">{{ section.fileSlug }}</div>
+            <div class="title">
+              <p>{{ section.fileSlug }}</p>
+              {% for image in section.images %}
+              <img src="{{ image | prepend: '/assets/images/' }}" />
+              {% endfor %}
+            </div>
             <div class="info">
-              <div class="title">{{ section.fileSlug }}</div>
-              <div class="text">
-                {{ section.templateContent }}
+              <div class="title">
+                <p>{{ section.title }}</p>
               </div>
+              <div class="text">{{ section.templateContent }}</div>
             </div>
           </div>
-        {% endfor %}
+          {% endfor %}
+
       </div>
+      <div class="poster_w display">
+        <h3 id="section_title"></h3>
+        <p id="section_text"></p>
       </div>
-    </div>
-    <div class="poster_w display">
-      <h3 id="section_title"></h3>
-	    <p id="section_text"></p>
     </div>
   </div>
 </html>
