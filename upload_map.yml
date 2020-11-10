@@ -88,10 +88,10 @@ css:
     md5: 7934562a7a427544b10a1fd96f7b2295
   Poster/build/app.css:
     link_URL: https://2020.igem.org/Template:UNSW_Australia/Poster/build/appCSS?action=raw&ctype=text/css
-    md5: 1e15b7e6f0f392aa82f60e3e3277cf7a
+    md5: 4d745479e0882a1980ae7c81a1ff616d
   Poster/build/ttf.css:
     link_URL: https://2020.igem.org/Template:UNSW_Australia/Poster/build/ttfCSS?action=raw&ctype=text/css
-    md5: 7934562a7a427544b10a1fd96f7b2295
+    md5: 3b26112707ae82d995d38b10c43e76ac
 html:
   Poster/index.html:
     link_URL: https://2020.igem.org/Team:UNSW_Australia/Poster
@@ -108,10 +108,10 @@ js:
     md5: 000c3893cd42406aebf5454f3954e3e5
   Poster/build/app.js:
     link_URL: https://2020.igem.org/Template:UNSW_Australia/Poster/build/appJS?action=raw&ctype=text/javascript
-    md5: 2811059fa8d6b4648fa50c2a8724becb
+    md5: 9fda1894392560f98b128386f87d8695
   Poster/build/runtime.js:
     link_URL: https://2020.igem.org/Template:UNSW_Australia/Poster/build/runtimeJS?action=raw&ctype=text/javascript
-    md5: 000c3893cd42406aebf5454f3954e3e5
+    md5: e7b26ad1cccfdabd22795e4b6a76b5b0
   Poster/js/poster.js:
     link_URL: https://2020.igem.org/Template:UNSW_Australia/Poster/js/posterJS?action=raw&ctype=text/javascript
     md5: 4328dc537e4a1b496f3102a4bcb6eb10
