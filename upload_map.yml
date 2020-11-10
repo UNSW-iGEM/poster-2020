@@ -41,7 +41,7 @@ assets:
     upload_filename: T--UNSW_Australia--Poster_images--Bleached coral.png
   assets/images/IDT transparent.png:
     link_URL: https://2020.igem.org/wiki/images/1/16/T--UNSW_Australia--Poster_images--IDT_transparent.png
-    md5: 5221df078282a58913d62eb406104fc6
+    md5: e1f3592d8a708784442cb06390696d67
     upload_filename: T--UNSW_Australia--Poster_images--IDT transparent.png
   assets/images/Igem Logo.png:
     link_URL: https://2020.igem.org/wiki/images/1/11/T--UNSW_Australia--Poster_images--Igem_Logo.png
@@ -73,7 +73,7 @@ assets:
     upload_filename: T--UNSW_Australia--Poster_images--Sci comm 2.png
   assets/images/UNSW transparent.png:
     link_URL: https://2020.igem.org/wiki/images/0/01/T--UNSW_Australia--Poster_images--UNSW_transparent.png
-    md5: 90b3c87b9eb6e441905faf215e284f07
+    md5: fcd5a96653a61a7d3086e2e77af8b31c
     upload_filename: T--UNSW_Australia--Poster_images--UNSW transparent.png
   assets/images/background.png:
     link_URL: https://2020.igem.org/wiki/images/0/06/T--UNSW_Australia--Poster_images--background.png
@@ -99,7 +99,7 @@ css:
 html:
   Poster/index.html:
     link_URL: https://2020.igem.org/Team:UNSW_Australia/Poster
-    md5: 35d6b81f5fab84c27016c7b198909823
+    md5: 1d04ddaed95f37dbed86c52cc2d59398
 js:
   Poster/assets/app.js:
     link_URL: https://2020.igem.org/Template:UNSW_Australia/Poster/assets/appJS?action=raw&ctype=text/javascript
