@@ -14,11 +14,18 @@ html {
 
 .content,
 #unsw {
+  word-break: break-all;
   h1 {
     font-family: "josefin sans";
+    color: $site-grey;
+    font-size: 150%;
+    line-height: 0.25em;
+    // padding-top
   }
   h2 {
     font-family: "Lato";
+    color: $site-grey;
+    font-size: 1em;
   }
   p {
     font-family: "source sans pro";
@@ -33,7 +40,7 @@ html {
   }
 
   #logo {
-    height: 4vw;
+    height: 5%;
     width: auto;
     position: absolute;
     top: 0.5vw;
@@ -47,11 +54,12 @@ img:hover {
 
 .rows {
   .row {
-    width: 82.2% !important;
+    max-width: 82.2% !important;
     float: none !important;
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    flex: 1 1 0;
     border: $site-pink solid;
     border-top-width: $width / 2;
     border-left-width: $width;
@@ -61,24 +69,16 @@ img:hover {
     // styling for title section
     &:nth-child(1) {
       border: none;
-      .section {
+      #title {
         background-color: transparent;
         outline: none;
         h1 {
           color: $site-green;
-          font-size: 2.5em;
-          line-height: 0.1em;
+          font-size: 175%;
           text-shadow: 2px 2px 0 $site-dark-green;
         }
         h2 {
-          font-size: 1em;
-          color: $site-grey;
-        }
-
-        // doesn't work quite correctly with scaling
-        .poster-titles {
-          padding-top: 8%;
-          padding-bottom: 2%;
+          font-size: 100%;
         }
       }
     }
@@ -91,7 +91,9 @@ img:hover {
     }
     .section {
       display: block;
-      flex-basis: 100%;
+      max-width: 100%;
+      flex-grow: 1;
+      flex-basis: 0;
       text-align: center;
       outline: $site-pink solid $width;
       background-color: $site-white;
@@ -109,9 +111,14 @@ img:hover {
 
   .poster-images {
     display: flex;
+    flex-wrap: wrap;
     img {
-      min-width: 50%;
+      max-width: 50%;
     }
     // grid-template-columns: repeat(2, 1fr);
   }
+}
+
+.image-first {
+  width: 40% !important;
 }

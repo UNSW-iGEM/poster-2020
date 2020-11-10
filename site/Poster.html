@@ -1,17 +1,7 @@
 <html>
   <link rel="stylesheet" type="text/css" href="/Poster/build/app.css" />
   <link rel="stylesheet" type="text/css" href="/Poster/build/ttf.css" />
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
-  <!-- <script id="__bs_script__">
-    //<![CDATA[
-    document.write(
-      "<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.26.13'><\/script>".replace(
-        "HOST",
-        location.hostname
-      )
-    );
-    //]]>
-  </script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <div class="page_wrapper">
     <div class="page_center">
       <script src="/Poster/build/app.js"></script>
@@ -35,7 +25,7 @@
               >
                 {% if section.data.image-first %} {% for image in
                 section.data.images %}
-                <img src="{{ image | prepend: '/assets/images/' }}" />
+                <img src="{{ image | prepend: '/assets/images/' }}" class="image-first"/>
                 {% endfor %} {% endif %}
                 <div class="poster-titles">
                   <h1>{{ section.data.section-title }}</h1>
