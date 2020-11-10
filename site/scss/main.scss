@@ -16,10 +16,12 @@ html {
   h1 {
     font-family: "josefin sans" !important;
     color: $site-grey !important;
+    font-size: 2em;
   }
   h2 {
     font-family: "Lato" !important;
     color: $site-grey !important;
+    font-size: 1em;
   }
 
   p {
@@ -39,12 +41,6 @@ html {
 .content,
 #unsw {
   word-break: break-all;
-  h1 {
-    font-size: 150%;
-  }
-  h2 {
-    font-size: 150%;
-  }
 
   position: relative;
   #background {
@@ -67,14 +63,16 @@ img:hover {
   opacity: 1 !important;
 }
 
-.rows {
+#rows {
+  * {
+    margin: 0;
+  }
   .row {
     max-width: 82.2% !important;
     float: none !important;
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    flex: 1 1 0;
     border: $site-pink solid;
     border-top-width: $width / 2;
     border-left-width: $width;
@@ -122,13 +120,15 @@ img:hover {
 
     .poster-titles {
       display: block;
+      margin-top: auto;
+      margin-bottom: auto;
     }
   }
 
   .row-1 {
-    height: 9.8vw;
+    height: 14.6%;
     @media only screen and (max-width: 850px) {
-      height: 5vw;
+      height: 9.8vw;
     }
 
     h1 {
@@ -141,14 +141,43 @@ img:hover {
     }
   }
   .row-2, .row-3, .row-4, .row-6 {
-    height: 6.6vw;
+    height: 10%;
   }
   .row-5 {
-    height: 12vw;
+    height: 20%;
   }
   .row-7 {
-    height: 8vw;
+    height: 17%;
+    img {
+      width: 40%;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+    h1 {
+      font-size: 1em;
+    }
   }
+
+  .row-2 h1 {
+    font-size: 1.5em;
+  }
+  .row-3 {
+    h1 {
+      font-size: 1.5em
+    }
+    h2 {
+      font-size: .8em;
+    }
+  }
+  .row-4 {
+    h1 {
+      font-size: 1.3em;
+    }
+    h2 {
+      font-size: .8em;
+    }
+  }
+
 
   .title {
     display: flex;
@@ -164,12 +193,12 @@ img:hover {
     padding: 5%;
     display: flex;
     flex-wrap: wrap;
-    img {
-      max-width: 50%;
-    }
+    align-content: center;
+    justify-content: center;
+    width: 80%;
   }
 }
 
 .image-first {
-  width: 40% !important;
+  width: 25% !important;
 }
