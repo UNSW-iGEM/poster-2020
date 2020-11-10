@@ -1,3 +1,9 @@
+$site-white: #fbf5f9;
+$site-pink: #f1a9ba;
+$site-grey: #6b7473;
+
+$width: 2px;
+
 html {
   // force the scrollbar to always appear, avoiding longer right-hand content
   // resizing the poster
@@ -12,11 +18,15 @@ html {
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    div {
+    .section {
       display: block;
       flex-basis: 100%;
       text-align: center;
-      border: red solid 2px;
+      border: $site-pink solid;
+      border-top-width: $width;
+      border-left-width: $width;
+      border-right-width: $width;
+      border-bottom-width: 0;
     }
   }
   #background {

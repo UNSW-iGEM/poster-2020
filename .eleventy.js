@@ -6,7 +6,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("site/assets");
   eleventyConfig.addCollection("sectionRowSorted", function (collectionApi) {
     return collectionApi.getFilteredByTag("section").sort(function (a, b) {
-      return a.data.row- b.data.row;
+      // console.log(a.fileSlug, a.data.col, b.fileSlug, b.data.col)
+      return (a.data.row - b.data.row) || (a.data.col - b.data.col);
     });
   });
   eleventyConfig.addWatchTarget("./site/scss/");
