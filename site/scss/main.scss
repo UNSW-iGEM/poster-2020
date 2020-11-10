@@ -12,18 +12,40 @@ html {
   overflow-y: scroll;
 }
 
-.content, #unsw {
+.content,
+#unsw {
   h1 {
-    font-family: 'josefin sans';
+    font-family: "josefin sans";
   }
   h2 {
-    font-family: 'Lato';
+    font-family: "Lato";
   }
   p {
-    font-family: 'source sans pro';
+    font-family: "source sans pro";
   }
 
   position: relative;
+  #background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  #logo {
+    height: 4vw;
+    width: auto;
+    position: absolute;
+    top: 0.5vw;
+    right: 0.5vw;
+  }
+}
+
+img:hover {
+  opacity: 100% !important;
+}
+
+.rows {
   .row {
     width: 82.2% !important;
     float: none !important;
@@ -37,7 +59,7 @@ html {
     border-bottom-width: $width / 2;
 
     // styling for title section
-    &:nth-child(2) {
+    &:nth-child(1) {
       border: none;
       .section {
         background-color: transparent;
@@ -61,7 +83,7 @@ html {
       }
     }
 
-    &:nth-child(3) {
+    &:nth-child(2) {
       border-top-width: $width;
     }
     &:nth-last-child(1) {
@@ -73,15 +95,6 @@ html {
       text-align: center;
       outline: $site-pink solid $width;
       background-color: $site-white;
-    }
-  }
-  #background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    &:hover {
-      opacity: 100%;
     }
   }
 }
