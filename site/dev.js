@@ -16,7 +16,6 @@ $(document).ready(function () {
   var p_text;
   //when the user clicks on a .section
   $(".section").click(function () {
-      console.log('hi');
     //get id of clicked element
     clicked_id = $(this).attr("id");
     //empty display divs
