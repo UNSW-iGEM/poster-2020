@@ -1,3 +1,9 @@
+html {
+  // force the scrollbar to always appear, avoiding longer right-hand content
+  // resizing the poster
+  overflow-y: scroll;
+}
+
 .content {
   position: relative;
   .row {
@@ -18,5 +24,8 @@
     top: 0;
     left: 0;
     z-index: -1;
+    &:hover {
+      opacity: 100%;
+    }
   }
 }
