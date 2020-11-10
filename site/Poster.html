@@ -41,7 +41,7 @@
               </div>
               <div class="info">
                 <div class="title">
-                  <h1>{{ section.data.title }}</h1>
+                  <h1>{% if section.data.title %}{{ section.data.title }}{% else %}{{ section.data.section-title }}{% endif %}</h1>
                 </div>
                 <div class="text">{{ section.templateContent }}</div>
               </div>
