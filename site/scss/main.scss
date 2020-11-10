@@ -1,8 +1,10 @@
 $site-white: #fbf5f9;
 $site-pink: #f1a9ba;
 $site-grey: #6b7473;
+$site-green: #6dc6ac;
+$site-dark-green: #455655;
 
-$width: 2px;
+$width: 4px;
 
 html {
   // force the scrollbar to always appear, avoiding longer right-hand content
@@ -10,23 +12,67 @@ html {
   overflow-y: scroll;
 }
 
-.content {
+.content, #unsw {
+  h1 {
+    font-family: 'josefin sans';
+  }
+  h2 {
+    font-family: 'Lato';
+  }
+  p {
+    font-family: 'source sans pro';
+  }
+
   position: relative;
   .row {
-    width: 84% !important;
+    width: 82.2% !important;
     float: none !important;
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    border: $site-pink solid;
+    border-top-width: $width / 2;
+    border-left-width: $width;
+    border-right-width: $width;
+    border-bottom-width: $width / 2;
+
+    // styling for title section
+    &:nth-child(2) {
+      border: none;
+      .section {
+        background-color: transparent;
+        outline: none;
+        h1 {
+          color: $site-green;
+          font-size: 2.5em;
+          line-height: 0.1em;
+          text-shadow: 2px 2px 0 $site-dark-green;
+        }
+        h2 {
+          font-size: 1em;
+          color: $site-grey;
+        }
+
+        // doesn't work quite correctly with scaling
+        .poster-titles {
+          padding-top: 8%;
+          padding-bottom: 2%;
+        }
+      }
+    }
+
+    &:nth-child(3) {
+      border-top-width: $width;
+    }
+    &:nth-last-child(1) {
+      border-bottom-width: $width;
+    }
     .section {
       display: block;
       flex-basis: 100%;
       text-align: center;
-      border: $site-pink solid;
-      border-top-width: $width;
-      border-left-width: $width;
-      border-right-width: $width;
-      border-bottom-width: 0;
+      outline: $site-pink solid $width;
+      background-color: $site-white;
     }
   }
   #background {
