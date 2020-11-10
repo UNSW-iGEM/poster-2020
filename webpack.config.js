@@ -70,7 +70,7 @@ Encore
     //.addEntry('admin', './assets/admin.js')
     .addPlugin(new GoogleFontsPlugin({
         fonts: [
-            { family: "Josefin Sans" },
+            { family: "Josefin Sans", variants: ["400", "700"] },
             { family: "Lato" },
             { family: "Source Sans Pro"}
         ],

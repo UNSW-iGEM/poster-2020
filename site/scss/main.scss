@@ -89,7 +89,7 @@ img:hover {
         outline: unset;
         h1 {
           color: $site-green !important;
-          font-size: 175%;
+          font-size: 3vw;
           text-shadow: 2px 2px 0 $site-dark-green;
         }
         h2 {
@@ -105,23 +105,55 @@ img:hover {
       border-bottom-width: $width;
     }
     .section, #title {
-      display: block;
+      display: flex;
       max-width: 100%;
       flex-grow: 1;
       flex-basis: 0;
       text-align: center;
       outline: $site-pink solid $width;
       background-color: $site-white;
+      justify-content: center;
+      align-content: center;
       &:hover {
         outline: $site-green solid $width * 2;
         z-index: 1;
       }
     }
+
+    .poster-titles {
+      display: block;
+    }
+  }
+
+  .row-1 {
+    height: 9.8vw;
+    @media only screen and (max-width: 850px) {
+      height: 5vw;
+    }
+
+    h1 {
+      font-weight: 700;
+      margin-bottom: 0;
+    }
+
+    h2 {
+      margin-top: 0;
+    }
+  }
+  .row-2, .row-3, .row-4, .row-6 {
+    height: 6.6vw;
+  }
+  .row-5 {
+    height: 12vw;
+  }
+  .row-7 {
+    height: 8vw;
   }
 
   .title {
     display: flex;
     justify-content: center;
+    align-content: center;
   }
 
   .wrap {

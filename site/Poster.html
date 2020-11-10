@@ -13,11 +13,11 @@
         <img id="background" src="/assets/images/background.png" />
         <div class="rows">
           {% assign row = 1 %}
-          <div class="row">
+          <div class="row row-1">
             {% for section in collections.sectionRowSorted %} {% if row <
             section.data.row %} {% assign row = row | plus: 1 %}
           </div>
-          <div class="row">
+          <div class="row row-{{ row }}">
             {% endif %}
             <div class="section" id="{{ section.fileSlug }}">
               <div
@@ -29,14 +29,16 @@
                 {% endfor %} {% endif %}
                 <div class="poster-titles">
                   <h1>{{ section.data.section-title }}</h1>
-                  <h2>{{ section.data.subtitle }}</h2>
+                  {% if section.data.subtitle %}<h2>{{ section.data.subtitle }}</h2>{% endif %}
                 </div>
                 {% unless section.data.image-first %}
+                {% if section.data.images %}
                 <div class="poster-images">
                   {% for image in section.data.images %}
                   <img src="{{ image | prepend: '/assets/images/' }}" />
                   {% endfor %}
                 </div>
+                {% endif %}
                 {% endunless %}
               </div>
               <div class="info">
