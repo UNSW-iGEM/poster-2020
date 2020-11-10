@@ -81,7 +81,7 @@ assets:
     upload_filename: T--UNSW_Australia--Poster_images--background.png
   assets/images/modeller_dimer-0 Transparent.png:
     link_URL: https://2020.igem.org/wiki/images/a/af/T--UNSW_Australia--Poster_images--modeller_dimer-0_Transparent.png
-    md5: a894fd5a7ad23f18b70790f220767407
+    md5: 128821333df816b595b18b5634da3b51
     upload_filename: T--UNSW_Australia--Poster_images--modeller_dimer-0 Transparent.png
 css:
   Poster/assets/app.css:
@@ -92,14 +92,14 @@ css:
     md5: 7934562a7a427544b10a1fd96f7b2295
   Poster/build/app.css:
     link_URL: https://2020.igem.org/Template:UNSW_Australia/Poster/build/appCSS?action=raw&ctype=text/css
-    md5: 335a186bb22493d577392e6609c241de
+    md5: aeb5bd25bd6b9df1469f9befe63a8e1f
   Poster/build/ttf.css:
     link_URL: https://2020.igem.org/Template:UNSW_Australia/Poster/build/ttfCSS?action=raw&ctype=text/css
     md5: d65663bd1cf074e2bbf1a7abd5a158d4
 html:
   Poster/index.html:
     link_URL: https://2020.igem.org/Team:UNSW_Australia/Poster
-    md5: 1d04ddaed95f37dbed86c52cc2d59398
+    md5: 57159aa831c660d130365387fe87ca62
 js:
   Poster/assets/app.js:
     link_URL: https://2020.igem.org/Template:UNSW_Australia/Poster/assets/appJS?action=raw&ctype=text/javascript
@@ -118,4 +118,4 @@ js:
     md5: e7b26ad1cccfdabd22795e4b6a76b5b0
   Poster/js/poster.js:
     link_URL: https://2020.igem.org/Template:UNSW_Australia/Poster/js/posterJS?action=raw&ctype=text/javascript
-    md5: 4328dc537e4a1b496f3102a4bcb6eb10
+    md5: f4c95aaf4926c74b3446ec70c039db47
