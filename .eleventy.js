@@ -2,8 +2,9 @@ const yaml = require("js-yaml");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addDataExtension("yml", (contents) => yaml.safeLoad(contents));
-  eleventyConfig.addPassthroughCopy({ "build/*": "assets" });
+  eleventyConfig.addPassthroughCopy({ "build/*": "/Poster/build" });
   eleventyConfig.addPassthroughCopy("site/assets");
+  eleventyConfig.addPassthroughCopy("site/Poster");
   eleventyConfig.addCollection("sectionRowSorted", function (collectionApi) {
     return collectionApi.getFilteredByTag("section").sort(function (a, b) {
       // console.log(a.fileSlug, a.data.col, b.fileSlug, b.data.col)
