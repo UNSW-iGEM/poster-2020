@@ -3,7 +3,7 @@ tags: section
 row: 5
 section-title: EXPERIMENT
 images:
-  - 'modeller_dimer-0 Transparent.png'
+  - 'Poster_Experiment_Section_2.1-1.png'
 ---
 Our experimental work aimed at characterising the chaperone activity of novel small heat shock proteins; HSP22E and HSP22F. This was done by assembly of the gene construct in the pET-19b plasmid and transforming the plasmids in E. coli chassis. E. coli was our chosen chassis due to their high growth rate and transformation efficiency. This was beneficial for producing large amounts of protein for characterisation, especially given lab access limitations due to COVID-19. Induction of HSP22E and 22F expression was followed by His-tag protein purification and assessing the activity of the chaperones in preventing protein aggregation. It was found the presence of the HSPs greatly reduced aggregation when compared to samples without the chaperones. This suggests HSP22E and 22F could be effective in preventing irreversible heat damage within Symbiodinium.
 
