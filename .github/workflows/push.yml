@@ -30,7 +30,7 @@ jobs:
           python-version: 3.7
 
       - name: iGEM WikiSync
-        uses: igembitsgoa/wikisync-action@v1.1-a2
+        uses: igembitsgoa/wikisync-action@v1.1-a4
         with:
           team: 'UNSW_Australia'
           source: 'dist'
