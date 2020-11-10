@@ -33,7 +33,7 @@ assets:
     upload_filename: T--UNSW_Australia--Poster_Video Glutathione Slide 1 (1).png
   assets/images/BABS Transparent.png:
     link_URL: https://2020.igem.org/wiki/images/4/41/T--UNSW_Australia--Poster_images--BABS_Transparent.png
-    md5: b23c755d1cce02cf6722ca669626fea7
+    md5: 8f804f9d2e9f44c4c633ac7843ecf526
     upload_filename: T--UNSW_Australia--Poster_images--BABS Transparent.png
   assets/images/Bleached coral.png:
     link_URL: https://2020.igem.org/wiki/images/3/3f/T--UNSW_Australia--Poster_images--Bleached_coral.png
@@ -41,11 +41,11 @@ assets:
     upload_filename: T--UNSW_Australia--Poster_images--Bleached coral.png
   assets/images/IDT transparent.png:
     link_URL: https://2020.igem.org/wiki/images/1/16/T--UNSW_Australia--Poster_images--IDT_transparent.png
-    md5: e1f3592d8a708784442cb06390696d67
+    md5: fc973c918fa4262fd8b85d2380ce1534
     upload_filename: T--UNSW_Australia--Poster_images--IDT transparent.png
   assets/images/Igem Logo.png:
     link_URL: https://2020.igem.org/wiki/images/1/11/T--UNSW_Australia--Poster_images--Igem_Logo.png
-    md5: cb6056a1a6b39d44feba3bfd0095cd4c
+    md5: 8a255f9c8e687719a9557185331880cc
     upload_filename: T--UNSW_Australia--Poster_images--Igem Logo.png
   assets/images/Poster Background-blank.png:
     link_URL: https://2020.igem.org/wiki/images/8/8b/T--UNSW_Australia--Poster_images--Poster_Background-blank.png
@@ -99,7 +99,7 @@ css:
 html:
   Poster/index.html:
     link_URL: https://2020.igem.org/Team:UNSW_Australia/Poster
-    md5: 57159aa831c660d130365387fe87ca62
+    md5: a0f8029a1f111c16d327927d9ff3da54
 js:
   Poster/assets/app.js:
     link_URL: https://2020.igem.org/Template:UNSW_Australia/Poster/assets/appJS?action=raw&ctype=text/javascript
