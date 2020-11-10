@@ -30,14 +30,24 @@
           <div class="row">
             {% endif %}
             <div class="section" id="{{ section.fileSlug }}">
-              <div class="title">
+              <div
+                class="title {% unless section.data.image-first %}wrap{% endunless %}"
+              >
+                {% if section.data.image-first %} {% for image in
+                section.data.images %}
+                <img src="{{ image | prepend: '/assets/images/' }}" />
+                {% endfor %} {% endif %}
                 <div class="poster-titles">
                   <h1>{{ section.data.section-title }}</h1>
                   <h2>{{ section.data.subtitle }}</h2>
                 </div>
-                {% for image in section.images %}
-                <img src="{{ image | prepend: '/assets/images/' }}" />
-                {% endfor %}
+                {% unless section.data.image-first %}
+                <div class="poster-images">
+                  {% for image in section.data.images %}
+                  <img src="{{ image | prepend: '/assets/images/' }}" />
+                  {% endfor %}
+                </div>
+                {% endunless %}
               </div>
               <div class="info">
                 <div class="title">

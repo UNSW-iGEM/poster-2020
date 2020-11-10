@@ -1,8 +1,13 @@
 ---
 tags: section
 row: 3
+section-title: THE PROBLEM
+subtitle: Coral Bleaching & Our IHP Approach
+image-first: true
+images:
+  - 'Bleached coral.png'
 ---
-1. Science behind coral bleaching 
+1. Science behind coral bleaching
 2. Stakeholders
 3. Ethicists/social science - why synbio
 
@@ -17,14 +22,14 @@ The GBR, a hallmark of Australia’s national identity, is currently experiencin
 Our initial consultations with conservationists, ethicists and social scientists helped establish our understanding of the social landscape of synthetic biology solutions in natural environments.Then, we identified five key stakeholders; relationships that would be sustained through and ultimately drive the development of our solution to coral bleaching. To each of these stakeholders, coral bleaching presents a real and serious problem.
 
 1. Traditional Owners, who possess sacred cultural connection to the land, including the Great Barrier Reef region, face a degradation of history and culture.
-2. The rich biodiversity of the GBR, encompassing coral species, as well as the marine life dependent on coral reefs, faces loss.  
+2. The rich biodiversity of the GBR, encompassing coral species, as well as the marine life dependent on coral reefs, faces loss.
 3. The bioprospecting industry faces a depletion of medical and pharmaceutical resources that may be used to treat presently incurable diseases.
-4. The integrity of coastlines that are vulnerable to wave action and storms without the protection of coral reefs. 
-5. Tourism and fishing industries face major economic damage, as do the livelihoods of more than 69,000 Australians. 
+4. The integrity of coastlines that are vulnerable to wave action and storms without the protection of coral reefs.
+5. Tourism and fishing industries face major economic damage, as do the livelihoods of more than 69,000 Australians.
 
 Through ongoing discussions with stakeholders, we aimed to build bilateral conversations to lessen the disconnect between science and society. These conversations helped us ensure that our project remained 'human-centred' and 'values-driven'. Only when people and science exist symbiotically, do solutions which are good and responsible for the world arise.
 
-The GBR carries much national and emotional weight for Australians, whether or not they are directly impacted by coral bleaching. The preservation of a healthy coral reef is symbolic in conversations about the effects of climate change and the potential of synthetic biology solutions. The overarching problem of climate change may continue to persist. However, the powerful potential of synthetic biology solutions to preserve the Australian and global coral reefs, can help ensure that future generations can enjoy them in their entirety. 
+The GBR carries much national and emotional weight for Australians, whether or not they are directly impacted by coral bleaching. The preservation of a healthy coral reef is symbolic in conversations about the effects of climate change and the potential of synthetic biology solutions. The overarching problem of climate change may continue to persist. However, the powerful potential of synthetic biology solutions to preserve the Australian and global coral reefs, can help ensure that future generations can enjoy them in their entirety.
 
 
 **References**

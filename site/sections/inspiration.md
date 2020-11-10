@@ -1,8 +1,10 @@
 ---
 tags: section
 row: 2
+section-title: INTRODUCTION & INSPIRATION
 ---
-**Why We Care About Coral Bleaching**
+
+## Why We Care About Coral Bleaching
 
 Australia’s global identity is hallmarked by the Great Barrier Reef, a biologically diverse ecosystem located off the coast of Queensland, Australia. Its coral reef is the largest in the world, containing over 600 coral species, and accounting for three-quarters of the world’s coral population. (1)
 
@@ -10,11 +12,11 @@ The UNSW iGEM team is made up of young people who call Australia home,  and for 
 
 With all its history in our foundations, we face our dying GBR with one primal instinct: to want to protect our home. We believe ignoring it would be a great disservice to the generations of Aboriginal and Torres Strait Islander peoples who spent thousands of years protecting it before us. So, when given an opportunity to focus on one problem this year, we could think no further than the one happening in our own backyard.
 
-**Our Inspiration**
+## Our Inspiration
 
-As we face the problem of coral bleaching, we draw on inspiration from many people around us. 
+As we face the problem of coral bleaching, we draw on inspiration from many people around us.
 
-Firstly, we are inspired by the immense strength the Australian people have shown in the face of lost loved-ones, homes and livelihoods; a result of the effects of climate change. 
+Firstly, we are inspired by the immense strength the Australian people have shown in the face of lost loved-ones, homes and livelihoods; a result of the effects of climate change.
 
 Secondly, we are inspired by those who are contributing to a worldwide effort to conserve natural environments with advanced biotechnology. One of our sponsors, Revive & Restore (R&R), has implemented a ‘genetic rescue toolkit’, which features a crossover of genetic rescue, a standard conservation strategy, with advanced biotechnologies, such as genetic engineering and gene editing tools. (3) Seeing R&R navigate this crossover so gracefully has pushed us to imagine the possibilities of our own project, and explore the idea of this crossover in the context of coral bleaching.
 Thirdly, we are deeply inspired by those who have been contributing to the global effort to save coral reefs for decades. Coral bleaching has been detrimental to countless marine ecosystems worldwide, and the severity of the coral bleaching problem cannot be understated. The UNSW iGEM 2020 Team is simultaneously proud and humbled to be contributing to a larger, global effort towards a long-term, practicable solution for coral bleaching. We are passionate about working towards our common goal: to preserve and restore coral reefs so future generations can enjoy them in their magnificent entirety.

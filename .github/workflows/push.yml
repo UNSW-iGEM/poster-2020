@@ -35,6 +35,7 @@ jobs:
           team: 'UNSW_Australia'
           source: 'dist'
           build: 'igem'
+          poster: true
         env:
           IGEM_USERNAME: ${{ secrets.IGEM_USERNAME }}
           IGEM_PASSWORD: ${{ secrets.IGEM_PASSWORD }}
