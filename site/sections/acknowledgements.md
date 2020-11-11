@@ -28,7 +28,7 @@ Melissa Katon\
 Jesse Bergman\
 Brian Ee, Molecular Dynamics Advisor\
 Dr Rodrigo Santibáñez, Dry lab simulation\
-Professor Mark Tanaka, Mathematical Modelling\
+Professor Mark Tanaka, Mathematical Modelling
 
 ### Human Practices
 Professor Matthew Kearnes\
@@ -37,7 +37,7 @@ Elle Davidson\
 Lawrence Menz\
 Associate Professor Suhelen Egan\
 Australian Coastal Local Council\
-Great Barrier Reef Marine Park Authority (GBRMPA)\
+Great Barrier Reef Marine Park Authority (GBRMPA)
 
 ## Sponsors:
 <img src="/assets/images/BABS Transparent.png">

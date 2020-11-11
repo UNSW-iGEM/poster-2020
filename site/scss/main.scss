@@ -153,7 +153,6 @@ img:hover {
   .row-7 {
     height: 17% !important;
     img {
-      width: 40% !important;
       margin-left: 5% !important;
       margin-right: 5% !important;
     }
@@ -200,7 +199,9 @@ img:hover {
   }
 
   .poster-images {
-    padding: 5% !important;
+    img {
+      padding: 5px !important;
+    }
     display: flex !important;
     flex-wrap: wrap !important;
     align-content: center !important;
