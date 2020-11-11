@@ -1,7 +1,7 @@
 <html>
   <link rel="stylesheet" type="text/css" href="/Poster/build/app.css" />
   <link rel="stylesheet" type="text/css" href="/Poster/build/ttf.css" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
   <div class="page_wrapper">
     <div class="page_center">
       <script src="/Poster/build/app.js"></script>
@@ -49,9 +49,9 @@
                   {{ section.templateContent }}
                   {% if section.data.references %}
                     <h2>References</h2>
-                    <ol>
+                    <ol class="references">
                       {% for reference in section.data.references %}
-                        <li>{{ reference.text }} Available from <a href="{{ reference.link }}">{{ reference.link }}</a></li>
+                        <li>{{ reference.text }}{% if reference.link %} Available from <a href="{{ reference.link }}">{{ reference.link }}</a>{% endif %}</li>
                       {% endfor %}
                     </ol>
                   {% endif %}

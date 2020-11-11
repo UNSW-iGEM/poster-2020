@@ -8,34 +8,39 @@ images:
   - 'SPONSORS.png'
 ---
 
-<h2>Acknowledgements:</h2>
-Dr Dominic Glover, Primary PI <br>
-Ahmad Zeeshan Siddiqui, Primary Advisor<br>
-Joshua McCluskey, Lab Mentor <br>
-Dr Daniel Winter, Lab Mentor <br>
-Megan Jones, HP Mentor <br>
-Kevin Huynh, HP Mentor <br>
-Justine Salazar, Wiki Mentor <br><br>
+## Acknowledgements:
 
-<b>Lab Work</b><br><br>
-A/Prof. David Suggett <br>
-Professor Madeline Van Oppen <br>
-Associate Professor Wallace Bridge<br>
-Melissa Katon<br>
-Jesse Bergman<br>
-Brian Ee, Molecular Dynamics Advisor<br>
-Dr Rodrigo Santibáñez, Dry lab simulation<br>
-Professor Mark Tanaka, Mathematical Modelling<br><br>
+### Mentors
+Dr Dominic Glover, Primary PI\
+Ahmad Zeeshan Siddiqui, Primary Advisor\
+Joshua McCluskey, Lab Mentor \
+Dr Daniel Winter, Lab Mentor \
+Megan Jones, HP Mentor \
+Kevin Huynh, HP Mentor \
+Justine Salazar, Wiki Mentor
 
-<b>Human Practices</b><br><br>
-Professor Matthew Kearnes<br>
-Dr. Aditi Mankad<br>
-Elle Davidson<br>
-Lawrence Menz<br>
-Associate Professor Suhelen Egan<br>
-Australian Coastal Local Council<br>
-Great Barrier Reef Marine Park Authority (GBRMPA)<br><br>
+### Lab Work
 
-<h2>Sponsors:</h2>
-<img src="/assets/images/SPONSORS.png">
+A/Prof. David Suggett \
+Professor Madeline Van Oppen \
+Associate Professor Wallace Bridge\
+Melissa Katon\
+Jesse Bergman\
+Brian Ee, Molecular Dynamics Advisor\
+Dr Rodrigo Santibáñez, Dry lab simulation\
+Professor Mark Tanaka, Mathematical Modelling\
 
+### Human Practices
+Professor Matthew Kearnes\
+Dr. Aditi Mankad\
+Elle Davidson\
+Lawrence Menz\
+Associate Professor Suhelen Egan\
+Australian Coastal Local Council\
+Great Barrier Reef Marine Park Authority (GBRMPA)\
+
+## Sponsors:
+<img src="/assets/images/BABS Transparent.png">
+<img src="/assets/images/Revive and restore Colour.png">
+<img src="/assets/images/UNSW transparent.png">
+<img src="/assets/images/IDT transparent.png">
