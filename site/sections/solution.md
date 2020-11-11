@@ -5,15 +5,15 @@ section-title: 'PHASE I: DESIGNING OUR SOLUTION'
 subtitle: Engineering Thermo-tolerant Symbiotic Microalgae
 ---
 The aim of our project is to use synthetic biology to engineer more thermotolerant *Symbiodinium* hosts. To achieve this, two approaches have been developed by our team that both involve the introduction of genes via plasmid transformation. In order for our constructs to be responsive to coral bleaching, these genes will be under the control of the YAP1 ROS inducible promoter.
-
-The first approach is on the enzymatic level with the incorporation of glutathione (GSH); a ubiquitous primary antioxidant essential for neutralising ROS into less harmful products. It achieves this in its reduced thiol form by donating available electrons to ROS and thus preventing the oxidation of biological molecules. (1) The bifunctional glutathione synthetase gene (gshF) was selected due to its lack of a complex inhibition system, enabling greater GSH production. (2) To recycle oxidised GSH back into its reduced form, glutathione reductase will also be included. In this way, an efficient glutathione system can be introduced into our system to prevent ROS accumulation.
+<br><br>
+The first approach is on the enzymatic level with the incorporation of glutathione (GSH); a ubiquitous primary antioxidant essential for neutralising ROS into less harmful products. It achieves this in its reduced thiol form by donating available electrons to ROS and thus preventing the oxidation of biological molecules. (1) The bifunctional glutathione synthetase gene (gshF) was selected due to its lack of a complex inhibition system, enabling greater GSH production. (2) To recycle oxidised GSH back into its reduced form, glutathione reductase will also be included. In this way, an efficient glutathione system can be introduced into our system to prevent ROS accumulation.<br><br>
 
 <img src="/assets/Video Glutathione Slide 1 (1).png">
 
 The second approach in our project is the addition of small heat shock proteins (sHSP). These are protein chaperones that prevent protein misfolding from heat stress through its holdase activity. By binding to the hydrophobic core of denaturing proteins, sHSPs prevents their solubilisation and hence, interaction with other molecules. In this way, insoluble protein aggregates and its associated cellular stress can be avoided. (3)
-
+<br><br>
 There are various features of sHSP that make it ideal to introduce into Symbiodinium, prevent thermal denaturation and supplement the glutathione system. For one, its non-specificity enables sHSP to act on a large library of substrates. The ATP-independent nature of sHSP reactions is greatly beneficial in the context of oxidative stress as overburdened mitochondria inadvertently produce more ROS. (4) Furthermore, sHSP recruit other ATP-dependent chaperones to increase refolding by more than 80%. (5) Hence, for these reasons, sHSPs were a large focus in our solution.
-
+<br><br>
 For our project, HSP22 from *Chlamydomonas reinhardtii* was chosen due to its functionality at temperatures over 42°C; well above the sea surface temperatures of 30°C at Great Barrier Reef where coral bleaching occurs. (6, 7) More specifically, HSP22E and HSP22F were selected as these proteins work in conjunction with each other to target misfolding in the chloroplast; a major source of ROS leakage. (4)<br><br>
 
 **References**

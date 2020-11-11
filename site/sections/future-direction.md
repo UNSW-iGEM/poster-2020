@@ -6,16 +6,16 @@ subtitle: 'Biosafety & Ex-Situ Testing'
 ---
 
 In Phase II, we aim to implement our adapted genetic constructs into Symbiodinium goreui for introduction into coral.
-
+<br><br>
 One initial consideration, as with any proposed release of GMOs, is the biosafety implication of our solution. To limit risks surrounding invasion of the modified Symbiodinium outside of its intended environment, we have designed a toxin/antitoxin kill switch that takes advantage of extracellular interactions between coral hosts and their microalgae.
-
-Microbe-associated molecular patterns (MAMPs) on Symbiodinium interact with pattern recognition receptors (PRRs) on the corals to facilitate endocytosis and symbiosis. (1) Recent studies have identified mannose recognising Lectin ConA as a conserved MAMP across *Symbiodinium sp.* (2, 3) Lectin ConA has been implicated in key signalling pathways within other eukaryotes. (4, 5) This makes it an ideal candidate for a potential kill switch within our modified Symbiodinium. Our design includes the induction of CcdB antitoxin production through PRR activated Lectin ConA signalling pathways. (6) This will neutralise CcdA toxin that is constitutively produced under a weak promoter, causing cellular death of the Symbiodinium following detachment from the coral host.
+<br><br>
+Microbe-associated molecular patterns (MAMPs) on Symbiodinium interact with pattern recognition receptors (PRRs) on the corals to facilitate endocytosis and symbiosis. (1) Recent studies have identified mannose recognising Lectin ConA as a conserved MAMP across *Symbiodinium sp.* (2, 3) Lectin ConA has been implicated in key signalling pathways within other eukaryotes. (4, 5) This makes it an ideal candidate for a potential kill switch within our modified Symbiodinium. Our design includes the induction of CcdB antitoxin production through PRR activated Lectin ConA signalling pathways. (6) This will neutralise CcdA toxin that is constitutively produced under a weak promoter, causing cellular death of the Symbiodinium following detachment from the coral host.<br><br>
 
 <img src="/assets/Kill Switch.png">
 
-**Figure 1:** Diagrammatic representation of proposed kill switch. Created with BioRender.
+**Figure 1:** Diagrammatic representation of proposed kill switch. Created with BioRender.<br><br>
 
-Looking forward, the proposed implementation of our coral bleaching solution would involve the transfer of these genetically modified Symbiodinium into an in situ marine environment. Through consultation with Melissa Katon and Lawrence Menz we have developed a risk-mitigating, three-stage approach. We will monitor the impacts of our modified Symbiodinium on the coral polyp and the surrounding ecosystem at each stage before progressing to the next.
+Looking forward, the proposed implementation of our coral bleaching solution would involve the transfer of these genetically modified Symbiodinium into an in situ marine environment. Through consultation with Melissa Katon and Lawrence Menz we have developed a risk-mitigating, three-stage approach. We will monitor the impacts of our modified Symbiodinium on the coral polyp and the surrounding ecosystem at each stage before progressing to the next.<br><br>
 
 1. Ex-situ testing of our solution within a controlled and contained environment. This will be conducted at the Sydney Marine Institute in tanks simulating ocean conditions.
 2. In-situ testing in multiple areas of low biodiversity.
