@@ -107,7 +107,7 @@ css:
 html:
   Poster/index.html:
     link_URL: https://2020.igem.org/Team:UNSW_Australia/Poster
-    md5: fa167f56f3c4ea8109c13674c6d62ed4
+    md5: 1c89fbf25eeaa884da41da36b7b455d9
 js:
   Poster/assets/app.js:
     link_URL: https://2020.igem.org/Template:UNSW_Australia/Poster/assets/appJS?action=raw&ctype=text/javascript
