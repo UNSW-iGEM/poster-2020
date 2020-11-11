@@ -27,10 +27,3 @@ An interview session about our project overview was conducted between MolecularC
 
 ## Presenting to the Public
 “How is Science Solving Local and Global Challenges?” was the theme of our presentation and panel discussion about taking on challenges. This was based on our iGEM project and the application of synthetic biology.
-<<<<<<< HEAD
-=======
-
-<br><br>
-**Reference**
-1. Borup J, West RE, Thomas R. The impact of text versus video communication on instructor feedback in blended courses. Educational Technology Research and Development. 2015 Apr 1;63(2):161-84.
->>>>>>> 1d314d20f8a42724d271a491cc029a2aa48bee95
