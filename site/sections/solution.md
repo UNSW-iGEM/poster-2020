@@ -14,7 +14,7 @@ The second approach in our project is the addition of small heat shock proteins 
 
 There are various features of sHSP that make it ideal to introduce into Symbiodinium, prevent thermal denaturation and supplement the glutathione system. For one, its non-specificity enables sHSP to act on a large library of substrates. The ATP-independent nature of sHSP reactions is greatly beneficial in the context of oxidative stress as overburdened mitochondria inadvertently produce more ROS. (4) Furthermore, sHSP recruit other ATP-dependent chaperones to increase refolding by more than 80%. (5) Hence, for these reasons, sHSPs were a large focus in our solution.
 
-For our project, HSP22 from *Chlamydomonas reinhardtii* was chosen due to its functionality at temperatures over 42°C; well above the sea surface temperatures of 30°C at Great Barrier Reef where coral bleaching occurs. (6, 7) More specifically, HSP22E and HSP22F were selected as these proteins work in conjunction with each other to target misfolding in the chloroplast; a major source of ROS leakage. (4)
+For our project, HSP22 from *Chlamydomonas reinhardtii* was chosen due to its functionality at temperatures over 42°C; well above the sea surface temperatures of 30°C at Great Barrier Reef where coral bleaching occurs. (6, 7) More specifically, HSP22E and HSP22F were selected as these proteins work in conjunction with each other to target misfolding in the chloroplast; a major source of ROS leakage. (4)<br><br>
 
 **References**
 

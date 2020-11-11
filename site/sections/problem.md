@@ -26,9 +26,9 @@ Our initial consultations with conservationists, ethicists and social scientists
 
 Through ongoing discussions with stakeholders, we aimed to build bilateral conversations to lessen the disconnect between science and society. These conversations helped us ensure that our project remained 'human-centred' and 'values-driven'. Only when people and science exist symbiotically, do solutions which are good and responsible for the world arise.
 
-The GBR carries much national and emotional weight for Australians, whether or not they are directly impacted by coral bleaching. The preservation of a healthy coral reef is symbolic in conversations about the effects of climate change and the potential of synthetic biology solutions. The overarching problem of climate change may continue to persist. However, the powerful potential of synthetic biology solutions to preserve the Australian and global coral reefs, can help ensure that future generations can enjoy them in their entirety.
+The GBR carries much national and emotional weight for Australians, whether or not they are directly impacted by coral bleaching. The preservation of a healthy coral reef is symbolic in conversations about the effects of climate change and the potential of synthetic biology solutions. The overarching problem of climate change may continue to persist. However, the powerful potential of synthetic biology solutions to preserve the Australian and global coral reefs, can help ensure that future generations can enjoy them in their entirety.<br><br>
 
-
+**References:**
 1. Roth MS. The engine of the reef: photobiology of the coral–algal symbiosis. Front Microbiol [Internet]. 2014 [cited 2020 Oct 27];5. Available from: <https://www.frontiersin.org/articles/10.3389/fmicb.2014.00422/full>
 2. Vidal-Dupiol J, Adjeroud M, Roger E, Foure L, Duval D, Mone Y, et al. Coral bleaching under thermal stress: putative involvement of host/symbiont recognition mechanisms. BMC Physiol. 2009 Aug 4;9(1):14.
 3. Lesser MP. Coral Bleaching: Causes and Mechanisms. In: Dubinsky Z, Stambler N, editors. Coral Reefs: An Ecosystem in Transition [Internet]. Dordrecht: Springer Netherlands; 2011 [cited 2020 Oct 27]. p. 405–19. Available from: <https://doi.org/10.1007/978-94-007-0114-4_23>

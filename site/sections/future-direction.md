@@ -20,7 +20,7 @@ Looking forward, the proposed implementation of our coral bleaching solution wou
 1. Ex-situ testing of our solution within a controlled and contained environment. This will be conducted at the Sydney Marine Institute in tanks simulating ocean conditions.
 2. In-situ testing in multiple areas of low biodiversity.
 3. In-situ release in an area of ‘normal’ biodiversity.
-
+<br><br>
 
 **References**
 1. Liu H, Stephens TG, González-Pech RA, Beltran VH, Lapeyre B, Bongaerts P, Cooke I, Aranda M, Bourne DG, Forêt S, Miller DJ. Symbiodinium genomes reveal adaptive evolution of functions related to coral-dinoflagellate symbiosis. Communications biology. 2018 Jul 17;1(1):1-1.
