@@ -92,14 +92,14 @@ css:
     md5: 7934562a7a427544b10a1fd96f7b2295
   Poster/build/app.css:
     link_URL: https://2020.igem.org/Template:UNSW_Australia/Poster/build/appCSS?action=raw&ctype=text/css
-    md5: aeb5bd25bd6b9df1469f9befe63a8e1f
+    md5: 8f3016a97c3cc8938589b63b095fb760
   Poster/build/ttf.css:
     link_URL: https://2020.igem.org/Template:UNSW_Australia/Poster/build/ttfCSS?action=raw&ctype=text/css
     md5: d65663bd1cf074e2bbf1a7abd5a158d4
 html:
   Poster/index.html:
     link_URL: https://2020.igem.org/Team:UNSW_Australia/Poster
-    md5: a0f8029a1f111c16d327927d9ff3da54
+    md5: e37954cd5ad0084ddc0432c8e29dce8b
 js:
   Poster/assets/app.js:
     link_URL: https://2020.igem.org/Template:UNSW_Australia/Poster/assets/appJS?action=raw&ctype=text/javascript
