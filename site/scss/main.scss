@@ -63,10 +63,11 @@ img:hover {
   opacity: 1 !important;
 }
 
+.poster_w * {
+  margin: 0;
+}
+
 #rows {
-  * {
-    margin: 0;
-  }
   .row {
     max-width: 82.2% !important;
     float: none !important;
@@ -102,7 +103,8 @@ img:hover {
     &:nth-last-child(1) {
       border-bottom-width: $width;
     }
-    .section, #title {
+    .section,
+    #title {
       display: flex;
       max-width: 100%;
       flex-grow: 1;
@@ -140,7 +142,10 @@ img:hover {
       margin-top: 0;
     }
   }
-  .row-2, .row-3, .row-4, .row-6 {
+  .row-2,
+  .row-3,
+  .row-4,
+  .row-6 {
     height: 10%;
   }
   .row-5 {
@@ -154,38 +159,41 @@ img:hover {
       margin-right: 5%;
     }
     h1 {
-      font-size: 1vw;
+      font-size: 0.8vw;
     }
   }
 
-  .row-2 h1 {
-    font-size: 1.8vw;
+  .row-2 {
+    h1 {
+      font-size: 1.6vw;
+    }
   }
   .row-3 {
     h1 {
       font-size: 1.5vw;
     }
     h2 {
-      font-size: .8vw;
+      font-size: 0.8vw;
     }
   }
-  .row-4, .row-6 {
+  .row-4,
+  .row-6 {
     h1 {
-      font-size: 1.7vw;
+      font-size: 1.4vw;
     }
     h2 {
       font-size: 1vw;
     }
   }
   .row-5 h1 {
-    font-size: 2vw;
+    font-size: 1.8vw;
   }
-
 
   .title {
     display: flex;
     justify-content: center;
     align-content: center;
+    width: 100%;
   }
 
   .wrap {
@@ -203,5 +211,10 @@ img:hover {
 }
 
 .image-first {
-  width: 25% !important;
+  display: block;
+  margin-right: 10%;
+  margin-top: auto;
+  margin-bottom: auto !important;
+  width: unset !important;
+  height: 5vw;
 }
