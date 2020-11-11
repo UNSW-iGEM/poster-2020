@@ -24,8 +24,16 @@ html {
     font-size: 1em;
   }
 
+  h3 {
+    color: $site-grey !important;
+  }
+
   p {
     font-family: "Source Sans Pro" !important;
+  }
+
+  .references {
+    font-size: .75em !important;
   }
 }
 
@@ -63,8 +71,11 @@ img:hover {
   opacity: 1 !important;
 }
 
-.poster_w * {
-  margin: 0;
+// doing it like this for a less specific selector
+.row {
+  * {
+    margin: 0;
+  }
 }
 
 #rows {
