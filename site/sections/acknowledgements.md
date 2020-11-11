@@ -40,7 +40,5 @@ Australian Coastal Local Council\
 Great Barrier Reef Marine Park Authority (GBRMPA)\
 
 ## Sponsors:
-<img src="/assets/images/BABS Transparent.png">
-<img src="/assets/images/Revive and restore Colour.png">
-<img src="/assets/images/UNSW transparent.png">
-<img src="/assets/images/IDT transparent.png">
+<img src="/assets/images/SPONSORS.png">
+
