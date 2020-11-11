@@ -8,7 +8,7 @@ title: PROTECC Coral (Prevent Reactive Oxygen and Thermal Extreme Caused Carking
 
 ## Authors:
 
-Annabelle Lee, Bella Beach, Caitlin Ramsay, Chelsea Liang, Cornelius Bong, Deborah Chandra, Farnaz Sedghi, Gabrielle Milet, Jack Robbers, Jason Lin, Kelley Gao, Kelly Varianne, Rupini Ramamurthy, Sam Hum, Sayali Gore, Zelun Li
+Annabelle Beach, Annabelle Lee, Caitlin Ramsay, Chelsea Liang, Cornelius Bong, Deborah Chandra, Farnaz Sedghidiznab, Gabrielle Milet, Jack Robbers, Jason Lin, Kelley Gao, Kelly Varianne, Samuel Humphrey, Sakthirupini Ramamurthy, Sayali Gore, Zelun Li
 
 All affiliated with UNSW.
 
