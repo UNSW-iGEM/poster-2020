@@ -2,7 +2,8 @@
 tags: section
 row: 7
 col: 2
-section-title: ACKNOWLEDGEMENTS AND SPONSORS
+section-title: ACKNOWLEDGEMENTS
+title: ACKNOWLEDGEMENTS AND SPONSORS
 images:
   - 'BABS Transparent.png'
   - 'Revive and restore Colour.png'

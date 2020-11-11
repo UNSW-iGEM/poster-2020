@@ -154,28 +154,31 @@ img:hover {
       margin-right: 5%;
     }
     h1 {
-      font-size: 1em;
+      font-size: 1vw;
     }
   }
 
   .row-2 h1 {
-    font-size: 1.5em;
+    font-size: 1.8vw;
   }
   .row-3 {
     h1 {
-      font-size: 1.5em
+      font-size: 1.5vw;
     }
     h2 {
-      font-size: .8em;
+      font-size: .8vw;
     }
   }
-  .row-4 {
+  .row-4, .row-6 {
     h1 {
-      font-size: 1.3em;
+      font-size: 1.7vw;
     }
     h2 {
-      font-size: .8em;
+      font-size: 1vw;
     }
+  }
+  .row-5 h1 {
+    font-size: 2vw;
   }
 
 
