@@ -6,6 +6,17 @@ subtitle: Coral Bleaching & Our IHP Approach
 image-first: true
 images:
   - 'Bleached coral.png'
+references:
+  - text: 'Roth MS. The engine of the reef: photobiology of the coral–algal symbiosis. Front Microbiol [Internet]. 2014 [cited 2020 Oct 27];5.'
+    link: https://www.frontiersin.org/articles/10.3389/fmicb.2014.00422/full
+  - text: 'Vidal-Dupiol J, Adjeroud M, Roger E, Foure L, Duval D, Mone Y, et al. Coral bleaching under thermal stress: putative involvement of host/symbiont recognition mechanisms. BMC Physiol. 2009 Aug 4;9(1):14.'
+  - text: 'Lesser MP. Coral Bleaching: Causes and Mechanisms. In: Dubinsky Z, Stambler N, editors. Coral Reefs: An Ecosystem in Transition [Internet]. Dordrecht: Springer Netherlands; 2011 [cited 2020 Oct 27]. p. 405–19.'
+    link: 'https://doi.org/10.1007/978-94-007-0114-4_23'
+  - text: 'Long-term shifts in the colony size structure of coral populations along the Great Barrier Reef | Proceedings of the Royal Society B: Biological Sciences [Internet]. [cited 2020 Oct 27].'
+    link: 'https://royalsocietypublishing.org/doi/10.1098/rspb.2020.1432'
+  - text: 'Bieri T, Onishi M, Xiang T, Grossman AR, Pringle JR. Relative Contributions of Various Cellular Mechanisms to Loss of Algae during Cnidarian Bleaching. PLOS ONE. 2016 Apr 27;11(4):e0152693.'
+  - text: 'Great Barrier Reef suffers third mass bleaching in five years. BBC News [Internet]. 2020 Mar 26 [cited 2020 Oct 27].'
+    link: 'https://www.bbc.com/news/world-australia-52043554'
 ---
 <br>
 <h2>The Problem: Coral Bleaching</h2>
@@ -26,12 +37,4 @@ Our initial consultations with conservationists, ethicists and social scientists
 <br><br>
 Through ongoing discussions with stakeholders, we aimed to build bilateral conversations to lessen the disconnect between science and society. These conversations helped us ensure that our project remained 'human-centred' and 'values-driven'. Only when people and science exist symbiotically, do solutions which are good and responsible for the world arise.
 <br><br>
-The GBR carries much national and emotional weight for Australians, whether or not they are directly impacted by coral bleaching. The preservation of a healthy coral reef is symbolic in conversations about the effects of climate change and the potential of synthetic biology solutions. The overarching problem of climate change may continue to persist. However, the powerful potential of synthetic biology solutions to preserve the Australian and global coral reefs, can help ensure that future generations can enjoy them in their entirety.<br><br>
-
-**References:**
-1. Roth MS. The engine of the reef: photobiology of the coral–algal symbiosis. Front Microbiol [Internet]. 2014 [cited 2020 Oct 27];5. Available from: <https://www.frontiersin.org/articles/10.3389/fmicb.2014.00422/full>
-2. Vidal-Dupiol J, Adjeroud M, Roger E, Foure L, Duval D, Mone Y, et al. Coral bleaching under thermal stress: putative involvement of host/symbiont recognition mechanisms. BMC Physiol. 2009 Aug 4;9(1):14.
-3. Lesser MP. Coral Bleaching: Causes and Mechanisms. In: Dubinsky Z, Stambler N, editors. Coral Reefs: An Ecosystem in Transition [Internet]. Dordrecht: Springer Netherlands; 2011 [cited 2020 Oct 27]. p. 405–19. Available from: <https://doi.org/10.1007/978-94-007-0114-4_23>
-4. Long-term shifts in the colony size structure of coral populations along the Great Barrier Reef | Proceedings of the Royal Society B: Biological Sciences [Internet]. [cited 2020 Oct 27]. Available from: <https://royalsocietypublishing.org/doi/10.1098/rspb.2020.1432>
-5. Bieri T, Onishi M, Xiang T, Grossman AR, Pringle JR. Relative Contributions of Various Cellular Mechanisms to Loss of Algae during Cnidarian Bleaching. PLOS ONE. 2016 Apr 27;11(4):e0152693.
-6. Great Barrier Reef suffers third mass bleaching in five years. BBC News [Internet]. 2020 Mar 26 [cited 2020 Oct 27]; Available from: <https://www.bbc.com/news/world-australia-52043554>
+The GBR carries much national and emotional weight for Australians, whether or not they are directly impacted by coral bleaching. The preservation of a healthy coral reef is symbolic in conversations about the effects of climate change and the potential of synthetic biology solutions. The overarching problem of climate change may continue to persist. However, the powerful potential of synthetic biology solutions to preserve the Australian and global coral reefs, can help ensure that future generations can enjoy them in their entirety.

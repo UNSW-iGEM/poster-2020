@@ -41,4 +41,3 @@ Great Barrier Reef Marine Park Authority (GBRMPA)
 
 ## Sponsors:
 <img src="/assets/images/SPONSORS.png">
-
