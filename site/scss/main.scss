@@ -113,7 +113,7 @@ img:hover {
       justify-content: center;
       align-content: center;
       &:hover {
-        outline: $site-green solid $width * 2;
+        outline: $site-green solid $width;
         z-index: 1;
       }
     }
