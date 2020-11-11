@@ -5,10 +5,7 @@ col: 2
 section-title: ACKNOWLEDGEMENTS
 title: ACKNOWLEDGEMENTS AND SPONSORS
 images:
-  - 'BABS Transparent.png'
-  - 'Revive and restore Colour.png'
-  - 'UNSW transparent.png'
-  - 'IDT transparent.png'
+  - 'SPONSORS.png'
 ---
 
 ## Acknowledgements:

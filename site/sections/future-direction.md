@@ -27,3 +27,15 @@ Looking forward, the proposed implementation of our coral bleaching solution wou
 1. Ex-situ testing of our solution within a controlled and contained environment. This will be conducted at the Sydney Marine Institute in tanks simulating ocean conditions.
 2. In-situ testing in multiple areas of low biodiversity.
 3. In-situ release in an area of ‘normal’ biodiversity.
+<<<<<<< HEAD
+=======
+<br><br>
+
+**References**
+1. Liu H, Stephens TG, González-Pech RA, Beltran VH, Lapeyre B, Bongaerts P, Cooke I, Aranda M, Bourne DG, Forêt S, Miller DJ. Symbiodinium genomes reveal adaptive evolution of functions related to coral-dinoflagellate symbiosis. Communications biology. 2018 Jul 17;1(1):1-1.
+2. Logan DDK, LaFlamme AC, Weis VM, Davy SK. 2010. Flow cytometric characterization of the cell-surface glycans of symbiotic dinoflagellates (Symbiodinium spp.). J. Phycol. 46:525–533
+3. Wood-Charlson EM, Hollingsworth LL, Krupp DA, Weis VM. Lectin/glycan interactions play a role in recognition in a coral/dinoflagellate symbiosis. Cell Microbiol. 2006;8(12):1985-93.
+4. Fu LL, Zhou CC, Yao S, Yu JY, Liu B, Bao JK. Plant lectins: targeting programmed cell death pathways as antitumor agents. Int J Biochem Cell Biol. 2011;43(10):1442-9.
+5. Sina A, Proulx-Bonneau S, Roy A, Poliquin L, Cao J, Annabi B. The lectin concanavalin-A signals MT1-MMP catalytic independent induction of COX-2 through an IKKgamma/NF-kappaB-dependent pathway. J Cell Commun Signal. 2010;4(1):31-8.
+6. Afif H, Allali N, Couturier M, Van Melderen L. The ratio between CcdA and CcdB modulates the transcriptional repression of the ccd poison–antidote system. Molecular microbiology. 2001 Jul;41(1):73-82.
+>>>>>>> 1d314d20f8a42724d271a491cc029a2aa48bee95

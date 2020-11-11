@@ -3,10 +3,14 @@ tags: section
 row: 7
 section-title: SCIENCE COMMUNICATION
 images:
+<<<<<<< HEAD
   - 'Sci comm 1.png'
   - 'Sci comm 2.png'
 reference:
   - text: 'Borup J, West RE, Thomas R. The impact of text versus video communication on instructor feedback in blended courses. Educational Technology Research and Development. 2015 Apr 1;63(2):161-84.'
+=======
+  - 'SCICOMM.png'
+>>>>>>> 1d314d20f8a42724d271a491cc029a2aa48bee95
 ---
 Science communication not only enables collaboration between scientists where research rationales, results and conclusions can be shared, it also bridges the gap in knowledge of a plethora of stakeholders who may not have a science background. Regardless of the ongoing pandemic, our team acknowledged the importance of communicating science to the society. Therefore, we made an attempt to share as much information about synthetic biology and our project to a wide range of audiences from primary school students to the general public.
 
@@ -27,3 +31,10 @@ An interview session about our project overview was conducted between MolecularC
 
 ## Presenting to the Public
 “How is Science Solving Local and Global Challenges?” was the theme of our presentation and panel discussion about taking on challenges. This was based on our iGEM project and the application of synthetic biology.
+<<<<<<< HEAD
+=======
+
+<br><br>
+**Reference**
+1. Borup J, West RE, Thomas R. The impact of text versus video communication on instructor feedback in blended courses. Educational Technology Research and Development. 2015 Apr 1;63(2):161-84.
+>>>>>>> 1d314d20f8a42724d271a491cc029a2aa48bee95
