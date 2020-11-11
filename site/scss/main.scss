@@ -9,19 +9,19 @@ $width: 4px;
 html {
   // force the scrollbar to always appear, avoiding longer right-hand content
   // resizing the poster
-  overflow-y: scroll;
+  overflow-y: scroll !important;
 }
 
 .page_center {
   h1 {
     font-family: "josefin sans" !important;
     color: $site-grey !important;
-    font-size: 2em;
+    font-size: 2em !important;
   }
   h2 {
     font-family: "Lato" !important;
     color: $site-grey !important;
-    font-size: 1em;
+    font-size: 1em !important;
   }
 
   h3 {
@@ -39,31 +39,31 @@ html {
 
 .display {
   img {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
     width: 80% !important;
   }
 }
 
 .content,
 #unsw {
-  word-break: break-all;
+  word-break: break-all !important;
 
-  position: relative;
+  position: relative !important;
   #background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    z-index: -1 !important;
   }
 
   #logo {
-    height: 5%;
-    width: auto;
-    position: absolute;
-    top: 0.5vw;
-    right: 0.5vw;
+    height: 5% !important;
+    width: auto !important;
+    position: absolute !important;
+    top: 0.5vw !important;
+    right: 0.5vw !important;
   }
 }
 
@@ -74,7 +74,7 @@ img:hover {
 // doing it like this for a less specific selector
 .row {
   * {
-    margin: 0;
+    margin: 0 !important;
   }
 }
 
@@ -82,181 +82,181 @@ img:hover {
   .row {
     max-width: 82.2% !important;
     float: none !important;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    border: $site-pink solid;
-    border-top-width: $width / 2;
-    border-left-width: $width;
-    border-right-width: $width;
-    border-bottom-width: $width / 2;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: flex !important;
+    border: $site-pink solid !important;
+    border-top-width: $width / 2 !important;
+    border-left-width: $width !important;
+    border-right-width: $width !important;
+    border-bottom-width: $width / 2 !important;
 
     &:nth-child(2) {
-      border-top-width: $width;
+      border-top-width: $width !important;
     }
     &:nth-last-child(1) {
-      border-bottom-width: $width;
+      border-bottom-width: $width !important;
     }
     .section,
     #title {
-      display: flex;
-      max-width: 100%;
-      flex-grow: 1;
-      flex-basis: 0;
-      text-align: center;
-      outline: $site-pink solid $width;
-      background-color: $site-white;
-      justify-content: center;
-      align-content: center;
+      display: flex !important;
+      max-width: 100% !important;
+      flex-grow: 1 !important;
+      flex-basis: 0 !important;
+      text-align: center !important;
+      outline: $site-pink solid $width !important;
+      background-color: $site-white !important;
+      justify-content: center !important;
+      align-content: center !important;
       &:hover {
-        outline: $site-green solid $width;
-        z-index: 1;
+        outline: $site-green solid $width !important;
+        z-index: 1 !important;
       }
     }
 
     .poster-titles {
-      display: block;
-      margin-top: auto;
-      margin-bottom: auto;
+      display: block !important;
+      margin-top: auto !important;
+      margin-bottom: auto !important;
     }
   }
 
   .row-1 {
-    height: 14.6%;
-    border: none;
+    height: 14.6% !important;
+    border: none !important;
     #title {
-      background-color: transparent;
-      outline: unset;
+      background-color: transparent !important;
+      outline: unset !important;
     }
     h1 {
       color: $site-green !important;
-      font-size: 3vw;
-      text-shadow: 2px 2px 0 $site-dark-green;
-      font-weight: 700;
-      margin-bottom: 0;
+      font-size: 3vw !important;
+      text-shadow: 2px 2px 0 $site-dark-green !important;
+      font-weight: 700 !important;
+      margin-bottom: 0 !important;
     }
 
     h2 {
-      font-size: 100%;
-      margin-top: 0;
+      font-size: 100% !important;
+      margin-top: 0 !important;
     }
   }
   .row-2,
   .row-3,
   .row-4,
   .row-6 {
-    height: 10%;
+    height: 10% !important;
   }
   .row-5 {
-    height: 20%;
+    height: 20% !important;
   }
   .row-7 {
-    height: 17%;
+    height: 17% !important;
     img {
-      width: 40%;
-      margin-left: 5%;
-      margin-right: 5%;
+      width: 40% !important;
+      margin-left: 5% !important;
+      margin-right: 5% !important;
     }
     h1 {
-      font-size: 0.8vw;
+      font-size: 0.8vw !important;
     }
   }
 
   .row-2 {
     h1 {
-      font-size: 1.6vw;
+      font-size: 1.6vw !important;
     }
   }
   .row-3 {
     h1 {
-      font-size: 1.5vw;
+      font-size: 1.5vw !important;
     }
     h2 {
-      font-size: 0.8vw;
+      font-size: 0.8vw !important;
     }
   }
   .row-4,
   .row-6 {
     h1 {
-      font-size: 1.4vw;
+      font-size: 1.4vw !important;
     }
     h2 {
-      font-size: 1vw;
+      font-size: 1vw !important;
     }
   }
   .row-5 h1 {
-    font-size: 1.8vw;
+    font-size: 1.8vw !important;
   }
 
   .title {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    width: 100%;
+    display: flex !important;
+    justify-content: center !important;
+    align-content: center !important;
+    width: 100% !important;
   }
 
   .wrap {
-    flex-wrap: wrap;
+    flex-wrap: wrap !important;
   }
 
   .poster-images {
-    padding: 5%;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    width: 80%;
+    padding: 5% !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-content: center !important;
+    justify-content: center !important;
+    width: 80% !important;
   }
 
   @media only screen and (max-width: 850px) {
     .row-1 {
       h1 {
-        font-size: 8vw;
+        font-size: 8vw !important;
       }
     }
     .row-2 {
       h1 {
-        font-size: 4vw;
+        font-size: 4vw !important;
       }
     }
     .row-3 {
       h1 {
-        font-size: 4vw;
+        font-size: 4vw !important;
       }
       h2 {
-        font-size: 2vw;
+        font-size: 2vw !important;
       }
       img {
-        height: 10vw;
+        height: 10vw !important;
       }
     }
     .row-4, .row-6 {
       h1 {
-        font-size: 3.8vw;
+        font-size: 3.8vw !important;
       }
       h2 {
-        font-size: 3vw;
+        font-size: 3vw !important;
       }
     }
     .row-5 {
       h1 {
-        font-size: 3vw;
+        font-size: 3vw !important;
       }
     }
     .row-7 {
        h1 {
 
-         font-size: 2vw;
+         font-size: 2vw !important;
        }
     }
   }
 }
 
 .image-first {
-  display: block;
-  margin-right: 10%;
-  margin-top: auto;
+  display: block !important;
+  margin-right: 10% !important;
+  margin-top: auto !important;
   margin-bottom: auto !important;
   width: unset !important;
-  height: 5vw;
+  height: 5vw !important;
 }
