@@ -201,6 +201,8 @@ img:hover {
   .poster-images {
     img {
       padding: 5px !important;
+      // make safari work
+      height: intrinsic;
     }
     display: flex !important;
     flex-wrap: wrap !important;

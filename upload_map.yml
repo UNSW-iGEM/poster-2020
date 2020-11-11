@@ -83,6 +83,14 @@ assets:
     link_URL: https://2020.igem.org/wiki/images/0/01/T--UNSW_Australia--Poster_images--UNSW_transparent.png
     md5: fcd5a96653a61a7d3086e2e77af8b31c
     upload_filename: T--UNSW_Australia--Poster_images--UNSW transparent.png
+  assets/images/background-middle.png:
+    link_URL: https://2020.igem.org/wiki/images/d/d9/T--UNSW_Australia--Poster_images--background-middle.png
+    md5: ba837077e6ea9b5bed75e37eb744b723
+    upload_filename: T--UNSW_Australia--Poster_images--background-middle.png
+  assets/images/background-top.png:
+    link_URL: https://2020.igem.org/wiki/images/6/62/T--UNSW_Australia--Poster_images--background-top.png
+    md5: ba837077e6ea9b5bed75e37eb744b723
+    upload_filename: T--UNSW_Australia--Poster_images--background-top.png
   assets/images/background.png:
     link_URL: https://2020.igem.org/wiki/images/0/06/T--UNSW_Australia--Poster_images--background.png
     md5: 6a452ec2d7f66196323ff77eaf1c3a58
@@ -100,14 +108,14 @@ css:
     md5: 7934562a7a427544b10a1fd96f7b2295
   Poster/build/app.css:
     link_URL: https://2020.igem.org/Template:UNSW_Australia/Poster/build/appCSS?action=raw&ctype=text/css
-    md5: be1dfc522e06b74bc3a3122cef870c24
+    md5: 565f44f28f2ddcf9795a5966d17d0bc9
   Poster/build/ttf.css:
     link_URL: https://2020.igem.org/Template:UNSW_Australia/Poster/build/ttfCSS?action=raw&ctype=text/css
     md5: d65663bd1cf074e2bbf1a7abd5a158d4
 html:
   Poster/index.html:
     link_URL: https://2020.igem.org/Team:UNSW_Australia/Poster
-    md5: e144a72d9a0559d30b0a1c9fbd71d925
+    md5: 5f78d85c64f70f0e8150f48f3ca33fba
 js:
   Poster/assets/app.js:
     link_URL: https://2020.igem.org/Template:UNSW_Australia/Poster/assets/appJS?action=raw&ctype=text/javascript
